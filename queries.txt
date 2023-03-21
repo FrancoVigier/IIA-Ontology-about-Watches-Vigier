@@ -1,0 +1,16 @@
+1.
+Reloj and (tieneCorrea some Cuero/Piel)
+
+RelojDeAlfredo
+
+2.
+Reloj and (tieneMovimiento some (fabricanteMovimiento value "Rolex"))
+
+RelojDeAlfredo
+RelojDeLucho
+RelojDeYoyi
+
+3.
+Reloj and (tieneMovimiento some (fabricanteMovimiento value "Citizen")) and (Marca value "Citizen")
+
+RelojDeValle

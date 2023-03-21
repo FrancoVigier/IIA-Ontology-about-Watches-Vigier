@@ -1,0 +1,1216 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#"
+     xml:base="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-2="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#tieneCorrea -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#tieneCorrea">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Reloj"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Correa"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#tieneCristal -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#tieneCristal">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Reloj"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Cristal"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#tieneDial -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#tieneDial">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Reloj"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Dial"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#tieneMovimiento -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#tieneMovimiento">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Reloj"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Movimiento"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Cierre -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Cierre">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Correa"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#LargoEnMM -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#LargoEnMM">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Correa"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedInt"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Marca -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Marca">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Reloj"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#TamañoCajaEnMM -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#TamañoCajaEnMM">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Reloj"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedInt"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#TieneBotones -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#TieneBotones">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Reloj"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#TieneRosca -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#TieneRosca">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Reloj"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#animalCuero -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#animalCuero">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Cuero/Piel"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#antirayonesCristal -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#antirayonesCristal">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Cristal"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#calendarioDial -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#calendarioDial">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Dial"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#calibreMovimientoEnMM -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#calibreMovimientoEnMM">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Movimiento"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedInt"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#cantidadDeAgujasAnalogico -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#cantidadDeAgujasAnalogico">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Analogico"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedInt"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#cantidadDeJoyasAutomatico -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#cantidadDeJoyasAutomatico">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Automatico"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedInt"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#cantidadEslabones -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#cantidadEslabones">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Eslabones"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedInt"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#colorCaucho -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#colorCaucho">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Caucho"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#colorCristal -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#colorCristal">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Cristal"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#duracionAproximadaPilasCuarzoEnHoras -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#duracionAproximadaPilasCuarzoEnHoras">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Cuarzo"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedInt"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#durezaCristalEnMohs -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#durezaCristalEnMohs">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Cristal"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedInt"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#fabricanteMovimiento -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#fabricanteMovimiento">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Movimiento"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#formaDial -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#formaDial">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Dial"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#grosorCristalEnMM -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#grosorCristalEnMM">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Cristal"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedInt"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#luzDePantallaDigital -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#luzDePantallaDigital">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Digital"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#materialDerivadoCristal -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#materialDerivadoCristal">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Cristal"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#materialEslabones -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#materialEslabones">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Eslabones"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#origenMovimiento -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#origenMovimiento">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Movimiento"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#tamañoDialEnMM -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#tamañoDialEnMM">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Dial"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedInt"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#tamañoNumerosDial -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#tamañoNumerosDial">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Dial"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedInt"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#tamañoVolanteAutomaticoEnMM -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#tamañoVolanteAutomaticoEnMM">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Automatico"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedInt"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#usaNumerosRomanosAnalogico -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#usaNumerosRomanosAnalogico">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Analogico"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Analogico -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Analogico">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Dial"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Digital"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Automatico -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Automatico">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Movimiento"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Caucho -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Caucho">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Correa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Correa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Correa"/>
+    
+
+
+    <!-- http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Cristal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Cristal"/>
+    
+
+
+    <!-- http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#CristalMineral -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#CristalMineral">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Cristal"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#antirayonesCristal"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#durezaCristalEnMohs"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#materialDerivadoCristal"/>
+                        <owl:hasValue>Silicio</owl:hasValue>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Cristal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Cuarzo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Cuarzo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Movimiento"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Deportivo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Deportivo">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#tieneCorrea"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Caucho"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#tieneDial"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Digital"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#tieneMovimiento"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Cuarzo"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Reloj"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Formal"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Lujo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Dial -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Dial"/>
+    
+
+
+    <!-- http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Digital -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Digital">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Dial"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Eslabones -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Eslabones">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Correa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Formal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Formal">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#tieneCorrea"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Eslabones"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#tieneCorrea"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Cuero/Piel"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Reloj"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#HardLex -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#HardLex">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Cristal"/>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#durezaCristalEnMohs"/>
+                                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</owl:hasValue>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#durezaCristalEnMohs"/>
+                                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:unionOf>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#antirayonesCristal"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#materialDerivadoCristal"/>
+                        <owl:hasValue>Silicio</owl:hasValue>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Cristal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Lujo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Lujo">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Formal"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#tieneCorrea"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Cuero/Piel"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#tieneCristal"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Zafiro"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Reloj"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Mixto -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Mixto">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Automatico"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Cuarzo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Movimiento -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Movimiento"/>
+    
+
+
+    <!-- http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Plexiglas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Plexiglas">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Cristal"/>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#durezaCristalEnMohs"/>
+                                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</owl:hasValue>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#durezaCristalEnMohs"/>
+                                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:unionOf>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#antirayonesCristal"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#materialDerivadoCristal"/>
+                        <owl:hasValue>Plastico</owl:hasValue>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Cristal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Reloj -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Reloj">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#tieneCorrea"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Correa"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#tieneCorrea"/>
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Correa"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#tieneCristal"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Cristal"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#tieneCristal"/>
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Cristal"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#tieneDial"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Dial"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#tieneDial"/>
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Dial"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#tieneMovimiento"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Movimiento"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#tieneMovimiento"/>
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Movimiento"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#SapphLex -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#SapphLex">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Cristal"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#antirayonesCristal"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#durezaCristalEnMohs"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#materialDerivadoCristal"/>
+                        <owl:hasValue>Zafiro</owl:hasValue>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Cristal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Zafiro -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Zafiro">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Cristal"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#antirayonesCristal"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#durezaCristalEnMohs"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#materialDerivadoCristal"/>
+                        <owl:hasValue>Zafiro</owl:hasValue>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Cristal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Cuero/Piel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Cuero/Piel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Correa"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#CorreaAcero -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#CorreaAcero">
+        <rdf:type rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Eslabones"/>
+        <Cierre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Broche</Cierre>
+        <LargoEnMM rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedInt">200</LargoEnMM>
+        <cantidadEslabones rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedInt">15</cantidadEslabones>
+        <materialEslabones rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acero</materialEslabones>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#CorreaCocodrilo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#CorreaCocodrilo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Cuero/Piel"/>
+        <Cierre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hebilla</Cierre>
+        <LargoEnMM rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedInt">270</LargoEnMM>
+        <animalCuero rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cocodrilo</animalCuero>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#CorreaDeportiva -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#CorreaDeportiva">
+        <rdf:type rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Caucho"/>
+        <Cierre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Broche</Cierre>
+        <LargoEnMM rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedInt">200</LargoEnMM>
+        <colorCaucho rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Naranja</colorCaucho>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#CorreaOro -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#CorreaOro">
+        <rdf:type rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Eslabones"/>
+        <Cierre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hebilla</Cierre>
+        <LargoEnMM rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedInt">250</LargoEnMM>
+        <cantidadEslabones rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedInt">20</cantidadEslabones>
+        <materialEslabones rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oro</materialEslabones>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#CorreaVacuna -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#CorreaVacuna">
+        <rdf:type rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Cuero/Piel"/>
+        <Cierre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hebilla</Cierre>
+        <LargoEnMM rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedInt">250</LargoEnMM>
+        <animalCuero rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vaca</animalCuero>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#CristalHard -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#CristalHard">
+        <rdf:type rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Cristal"/>
+        <antirayonesCristal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</antirayonesCristal>
+        <colorCristal rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rojo</colorCristal>
+        <durezaCristalEnMohs rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedInt">7</durezaCristalEnMohs>
+        <grosorCristalEnMM rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedInt">1</grosorCristalEnMM>
+        <materialDerivadoCristal rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Silicio</materialDerivadoCristal>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#CristalMineral -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#CristalMineral">
+        <rdf:type rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Cristal"/>
+        <antirayonesCristal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</antirayonesCristal>
+        <colorCristal rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amarillo Bokita</colorCristal>
+        <durezaCristalEnMohs rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedInt">5</durezaCristalEnMohs>
+        <grosorCristalEnMM rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedInt">1</grosorCristalEnMM>
+        <materialDerivadoCristal rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Silicio</materialDerivadoCristal>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#CristalNoClasificado -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#CristalNoClasificado">
+        <rdf:type rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Cristal"/>
+        <antirayonesCristal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</antirayonesCristal>
+        <colorCristal rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Azul</colorCristal>
+        <durezaCristalEnMohs rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedInt">2</durezaCristalEnMohs>
+        <grosorCristalEnMM rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedInt">2</grosorCristalEnMM>
+        <materialDerivadoCristal rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vidrio</materialDerivadoCristal>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#CristalPlex -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#CristalPlex">
+        <rdf:type rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Cristal"/>
+        <antirayonesCristal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</antirayonesCristal>
+        <colorCristal rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rosa Barbie</colorCristal>
+        <durezaCristalEnMohs rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedInt">3</durezaCristalEnMohs>
+        <grosorCristalEnMM rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedInt">1</grosorCristalEnMM>
+        <materialDerivadoCristal rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plastico</materialDerivadoCristal>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#CristalZafiro -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#CristalZafiro">
+        <rdf:type rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Cristal"/>
+        <antirayonesCristal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</antirayonesCristal>
+        <colorCristal rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Incoloro</colorCristal>
+        <durezaCristalEnMohs rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedInt">9</durezaCristalEnMohs>
+        <grosorCristalEnMM rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedInt">2</grosorCristalEnMM>
+        <materialDerivadoCristal rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zafiro</materialDerivadoCristal>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#DialCasio -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#DialCasio">
+        <rdf:type rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Digital"/>
+        <calendarioDial rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</calendarioDial>
+        <formaDial rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rectangular</formaDial>
+        <luzDePantallaDigital rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</luzDePantallaDigital>
+        <tamañoDialEnMM rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedInt">42</tamañoDialEnMM>
+        <tamañoNumerosDial rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedInt">5</tamañoNumerosDial>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#DialCronografo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#DialCronografo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Analogico"/>
+        <calendarioDial rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</calendarioDial>
+        <cantidadDeAgujasAnalogico rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedInt">4</cantidadDeAgujasAnalogico>
+        <formaDial rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rectangular</formaDial>
+        <tamañoDialEnMM rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedInt">45</tamañoDialEnMM>
+        <tamañoNumerosDial rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedInt">5</tamañoNumerosDial>
+        <usaNumerosRomanosAnalogico rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</usaNumerosRomanosAnalogico>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#DialFechador -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#DialFechador">
+        <rdf:type rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Analogico"/>
+        <calendarioDial rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</calendarioDial>
+        <cantidadDeAgujasAnalogico rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedInt">6</cantidadDeAgujasAnalogico>
+        <formaDial rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rectangular</formaDial>
+        <tamañoDialEnMM rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedInt">45</tamañoDialEnMM>
+        <tamañoNumerosDial rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedInt">4</tamañoNumerosDial>
+        <usaNumerosRomanosAnalogico rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</usaNumerosRomanosAnalogico>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#DialFormal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#DialFormal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Analogico"/>
+        <calendarioDial rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</calendarioDial>
+        <cantidadDeAgujasAnalogico rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedInt">3</cantidadDeAgujasAnalogico>
+        <formaDial rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Circular</formaDial>
+        <tamañoDialEnMM rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedInt">35</tamañoDialEnMM>
+        <tamañoNumerosDial rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedInt">1</tamañoNumerosDial>
+        <usaNumerosRomanosAnalogico rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</usaNumerosRomanosAnalogico>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#DialSimple -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#DialSimple">
+        <rdf:type rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Digital"/>
+        <calendarioDial rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</calendarioDial>
+        <formaDial rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rectangular</formaDial>
+        <luzDePantallaDigital rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</luzDePantallaDigital>
+        <tamañoDialEnMM rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedInt">42</tamañoDialEnMM>
+        <tamañoNumerosDial rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedInt">10</tamañoNumerosDial>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#PilaCitizen -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#PilaCitizen">
+        <rdf:type rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Cuarzo"/>
+        <calibreMovimientoEnMM rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedInt">25</calibreMovimientoEnMM>
+        <duracionAproximadaPilasCuarzoEnHoras rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedInt">43200</duracionAproximadaPilasCuarzoEnHoras>
+        <fabricanteMovimiento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Citizen</fabricanteMovimiento>
+        <origenMovimiento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Japon</origenMovimiento>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#PilaMiyota -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#PilaMiyota">
+        <rdf:type rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Cuarzo"/>
+        <calibreMovimientoEnMM rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedInt">10</calibreMovimientoEnMM>
+        <duracionAproximadaPilasCuarzoEnHoras rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedInt">8640</duracionAproximadaPilasCuarzoEnHoras>
+        <fabricanteMovimiento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Miyota</fabricanteMovimiento>
+        <origenMovimiento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Japon</origenMovimiento>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#PilaSeiko -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#PilaSeiko">
+        <rdf:type rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Cuarzo"/>
+        <calibreMovimientoEnMM rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedInt">10</calibreMovimientoEnMM>
+        <duracionAproximadaPilasCuarzoEnHoras rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedInt">8640</duracionAproximadaPilasCuarzoEnHoras>
+        <fabricanteMovimiento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seiko</fabricanteMovimiento>
+        <origenMovimiento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">China</origenMovimiento>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#ReloDePetru -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#ReloDePetru">
+        <tieneCorrea rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#CorreaDeportiva"/>
+        <tieneCristal rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#CristalPlex"/>
+        <tieneDial rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#DialCasio"/>
+        <tieneMovimiento rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#TissotMixto"/>
+        <Marca rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tissot</Marca>
+        <TamañoCajaEnMM rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedInt">25</TamañoCajaEnMM>
+        <TieneBotones rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</TieneBotones>
+        <TieneRosca rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</TieneRosca>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#RelojDeAlfredo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#RelojDeAlfredo">
+        <tieneCorrea rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#CorreaVacuna"/>
+        <tieneCristal rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#CristalZafiro"/>
+        <tieneDial rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#DialFormal"/>
+        <tieneMovimiento rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#27Jewels"/>
+        <Marca rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mistral</Marca>
+        <TamañoCajaEnMM rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedInt">40</TamañoCajaEnMM>
+        <TieneBotones rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</TieneBotones>
+        <TieneRosca rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</TieneRosca>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#RelojDeLucho -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#RelojDeLucho">
+        <tieneCorrea rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#CorreaDeportiva"/>
+        <tieneCristal rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#CristalNoClasificado"/>
+        <tieneDial rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#DialCronografo"/>
+        <tieneMovimiento rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#27Jewels"/>
+        <Marca rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chiringuito</Marca>
+        <TamañoCajaEnMM rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedInt">25</TamañoCajaEnMM>
+        <TieneBotones rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</TieneBotones>
+        <TieneRosca rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</TieneRosca>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#RelojDeMessu -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#RelojDeMessu">
+        <tieneCorrea rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#CorreaOro"/>
+        <tieneCristal rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#CristalNoClasificado"/>
+        <tieneDial rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#DialFechador"/>
+        <Marca rdf:datatype="http://www.w3.org/2001/XMLSchema#string">空</Marca>
+        <TamañoCajaEnMM rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedInt">30</TamañoCajaEnMM>
+        <TieneBotones rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</TieneBotones>
+        <TieneRosca rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</TieneRosca>
+    </owl:NamedIndividual>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NegativePropertyAssertion"/>
+        <owl:sourceIndividual rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#RelojDeMessu"/>
+        <owl:assertionProperty rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#tieneMovimiento"/>
+        <owl:targetIndividual rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#PilaCitizen"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NegativePropertyAssertion"/>
+        <owl:sourceIndividual rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#RelojDeMessu"/>
+        <owl:assertionProperty rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#tieneMovimiento"/>
+        <owl:targetIndividual rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#PilaMiyota"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NegativePropertyAssertion"/>
+        <owl:sourceIndividual rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#RelojDeMessu"/>
+        <owl:assertionProperty rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#tieneMovimiento"/>
+        <owl:targetIndividual rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#PilaSeiko"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NegativePropertyAssertion"/>
+        <owl:sourceIndividual rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#RelojDeMessu"/>
+        <owl:assertionProperty rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#tieneMovimiento"/>
+        <owl:targetIndividual rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#TissotMixto"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NegativePropertyAssertion"/>
+        <owl:sourceIndividual rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#RelojDeMessu"/>
+        <owl:assertionProperty rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#tieneMovimiento"/>
+        <owl:targetIndividual rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#27Jewels"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#RelojDeValle -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#RelojDeValle">
+        <tieneCorrea rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#CorreaAcero"/>
+        <tieneCristal rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#CristalHard"/>
+        <tieneDial rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#DialCronografo"/>
+        <tieneMovimiento rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#PilaCitizen"/>
+        <Marca rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Citizen</Marca>
+        <TamañoCajaEnMM rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedInt">30</TamañoCajaEnMM>
+        <TieneBotones rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</TieneBotones>
+        <TieneRosca rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</TieneRosca>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#RelojDeYoyi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#RelojDeYoyi">
+        <tieneCorrea rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#CorreaDeportiva"/>
+        <tieneCristal rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#CristalZafiro"/>
+        <tieneDial rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#DialFechador"/>
+        <tieneMovimiento rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#27Jewels"/>
+        <Marca rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Su Chucha(tm)</Marca>
+        <TamañoCajaEnMM rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedInt">30</TamañoCajaEnMM>
+        <TieneBotones rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</TieneBotones>
+        <TieneRosca rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</TieneRosca>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#TissotMixto -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#TissotMixto">
+        <rdf:type rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Mixto"/>
+        <calibreMovimientoEnMM rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedInt">25</calibreMovimientoEnMM>
+        <cantidadDeJoyasAutomatico rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedInt">13</cantidadDeJoyasAutomatico>
+        <duracionAproximadaPilasCuarzoEnHoras rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedInt">43200</duracionAproximadaPilasCuarzoEnHoras>
+        <fabricanteMovimiento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tissot</fabricanteMovimiento>
+        <origenMovimiento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Suiza</origenMovimiento>
+        <tamañoVolanteAutomaticoEnMM rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedInt">5</tamañoVolanteAutomaticoEnMM>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#27Jewels -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#27Jewels">
+        <rdf:type rdf:resource="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Automatico"/>
+        <calibreMovimientoEnMM rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedInt">45</calibreMovimientoEnMM>
+        <cantidadDeJoyasAutomatico rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedInt">27</cantidadDeJoyasAutomatico>
+        <fabricanteMovimiento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rolex</fabricanteMovimiento>
+        <origenMovimiento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Suiza</origenMovimiento>
+        <tamañoVolanteAutomaticoEnMM rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedInt">10</tamañoVolanteAutomaticoEnMM>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Caucho"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Eslabones"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Cuero/Piel"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Correa"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Cristal"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Dial"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Movimiento"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Reloj"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#CristalMineral"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#HardLex"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Plexiglas"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#SapphLex"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#Zafiro"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#CorreaAcero"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#CorreaCocodrilo"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#CorreaDeportiva"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#CorreaOro"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#CorreaVacuna"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#CristalHard"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#CristalMineral"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#CristalNoClasificado"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#CristalPlex"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#CristalZafiro"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#DialCasio"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#DialCronografo"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#DialFechador"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#DialFormal"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#DialSimple"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#PilaCitizen"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#PilaMiyota"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#PilaSeiko"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#TissotMixto"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#27Jewels"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#RelojDeAlfredo"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/emmanuel/ontologies/2022/3/untitled-ontology-2#RelojDeValle"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
